@@ -1,0 +1,7 @@
+/*		Create your own code, that converts 
+      minutes into seconds
+*/	
+	alert ('ONLINE CONVERTER (minutes into seconds)');
+	min = prompt('type how much minutes do u have:');
+	sec = min * 60;
+	alert (`Take your ${sec} seconds`);
