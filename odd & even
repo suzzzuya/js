@@ -1,0 +1,10 @@
+/*		odd and even.
+*/
+	let num1; 
+	num1 = prompt('Enter number');
+	if (num1 % 2 = 0) {
+		alert('even.');
+	}
+	else {
+		alert('odd.');
+	}
