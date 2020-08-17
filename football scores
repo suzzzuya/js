@@ -1,0 +1,29 @@
+/*		Create a function that takes the number of wins, 
+		draws and losses and calculates 
+		the number of points a football team has obtained so far.
+
+			wins get 3 points
+			draws get 1 point
+			losses get 0 points
+*/
+	let wins = prompt('how much wins?');
+	let draws = prompt('how much draws?'); 
+	let losses = prompt('how much losses?');
+	wins = Number(wins)
+	draws = Number(draws)
+	losses = Number(losses)
+	if (wins > 0) {
+		wins + 3
+	}
+	else {
+		wins = 0
+	}
+	if (draws > 0) {
+		draws + 3
+	}
+	else {
+		draws = 0
+	}
+
+	let result = (wins + draws);
+	alert(result);
