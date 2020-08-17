@@ -1,0 +1,12 @@
+/*		Given two numbers, 
+		return true if the sum of both numbers is less than 100. 
+		Otherwise return false.
+*/
+	let num1 = prompt('Enter first number');
+	let num2 = prompt('Enter second number');
+	if (num1 + num2 <= 100 ) {
+		alert(true);
+	}
+	else {
+		alert(false);
+	}
